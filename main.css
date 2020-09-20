@@ -31,6 +31,15 @@ body {
     border-radius: 50%;
 }
 
+#like-button {
+    border: 1px solid royalblue;
+    border-radius: 5px;
+    background-color: royalblue;
+    padding: 5px;
+    color: white;
+}
+
 #like-button:hover {
-    color: ;
+    background-color: grey;
+    border-color: grey;
 }
