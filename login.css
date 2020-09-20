@@ -1,0 +1,14 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.flex-container > div {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
