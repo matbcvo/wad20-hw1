@@ -53,9 +53,20 @@ div[id="box-header"] ~ div {
     background-color: royalblue;
     padding: 5px;
     color: white;
+    text-decoration: none;
 }
 
 #like-button:hover {
     background-color: grey;
     border-color: grey;
+}
+
+div[id="box-header"] > div {
+    display: flex;
+    flex-direction: row;
+}
+
+div[id="box-header"] > div :last-child {
+    flex-grow: 1;
+    text-align: right;
 }
